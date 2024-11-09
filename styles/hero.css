@@ -1,0 +1,154 @@
+.mainhero{
+    display: flex;
+   background-color: #DEE2E6;
+    align-items: center;
+    justify-content:space-evenly;
+    padding:20px;
+}
+.imagehero{
+    border-radius: 50%;
+    padding:20px;
+    margin-left: 20px;
+}
+.imagehero:hover{
+   box-shadow: 5px 5px 10px rgb(179, 168, 179);
+}
+.content{
+    margin-left:50px;
+    width:500px;
+    line-height: 60px;
+}
+.heading1{
+    font-size: 60px;
+    font-weight: 700;
+    text-decoration: underline;
+   color:blue;
+}
+.msg{
+    font-size: 40px;
+    font-weight:700;
+}
+.para1{
+    font-size: 25px;
+    font-weight:400;
+}
+.calltoaction1{
+  width: 200px;
+  background-color: #3A86FF;
+  margin:10px;
+  font-size: 20px;
+  font-weight: bold;
+  color:  #F7F8FA;
+  border-radius: 20px;
+  height:auto;
+}
+.calltoaction1:hover{
+  box-shadow: 5px 5px 10px #6b84ad;
+}
+@media (max-width: 1024px) {
+    .mainhero {
+      padding: 20px;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .imagehero {
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+    }
+  
+    .content {
+      width: 80%;
+      margin: 20px 0;
+      line-height: 40px;
+    }
+  
+    .heading1 {
+      font-size: 48px;
+    }
+  
+    .msg {
+      font-size: 32px;
+    }
+  
+    .para1 {
+      font-size: 20px;
+    }
+  
+    .calltoaction {
+      width: 180px;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mainhero {
+      padding: 15px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .imagehero {
+      width: 250px;
+      height: 250px;
+      margin: 0 auto;
+    }
+  
+    .content {
+      width: 90%;
+      line-height: 35px;
+    }
+  
+    .heading1 {
+      font-size: 36px;
+    }
+  
+    .msg {
+      font-size: 28px;
+    }
+  
+    .para1 {
+      font-size: 18px;
+    }
+  
+    .calltoaction {
+      width: 160px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mainhero {
+      padding: 10px;
+    }
+  
+    .imagehero {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .content {
+      width: 100%;
+      line-height: 30px;
+    }
+  
+    .heading1 {
+      font-size: 28px;
+    }
+  
+    .msg {
+      font-size: 24px;
+    }
+  
+    .para1 {
+      font-size: 16px;
+    }
+  
+    .calltoaction {
+      width: 140px;
+      font-size: 14px;
+    }
+  }
+  

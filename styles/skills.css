@@ -1,0 +1,104 @@
+.skills{
+    background-color:#DEE2E6;
+    padding:20px;
+}
+.listSkills{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items:center;
+    padding-top: 50px; 
+    gap:20px;   
+}
+.heading3{
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: underline ;
+    line-height: 40px;
+    margin-top:30px;
+    color:blue;
+    text-align: center;
+ }
+.main{
+    width: 250px;
+    height:200px;
+    padding: 20px;
+    font-weight: bold;
+    font-size:30px;
+    color:beige;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+.main:hover {
+    transform: rotate(10deg); /* Rotates the card by 10 degrees */
+}
+.content{
+    padding-left:20px;
+}
+.html{
+   background-color: orange;
+}
+.css{
+    background-color: rgb(81, 158, 230);
+}
+.js{
+    background-color: rgb(219, 219, 36);
+}
+.ts{
+    background-color: rgb(5, 67, 138);
+}
+.figma{
+    background-color: purple;
+}
+.git{
+    background-color:rgb(228, 59, 29);
+}
+.next{
+    background-color: black;
+}
+.tailwind{
+    background-color: rgb(61, 87, 231);
+}
+ /* Responsive adjustments */
+ /* or tablets */
+@media (max-width: 1024px) {
+    .listSkills {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    .main {
+        width: 220px;
+        height: 180px;
+        font-size: 28px;
+    }
+    .heading3 {
+        font-size: 36px;
+    }
+}
+/* for smaller screen */
+@media (max-width: 768px) {
+    .listSkills {
+      grid-template-columns: 1fr 1fr;
+    }
+    .main {
+        width: 200px;
+        height: 160px;
+        font-size: 24px;
+    }
+    .heading3 {
+        font-size: 30px;
+    }
+}
+/* For mobile screen */
+@media (max-width: 480px) {
+    .listSkills {
+        grid-template-columns: 1fr; 
+    }
+    .main {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .heading3 {
+        font-size: 24px;
+    }
+}

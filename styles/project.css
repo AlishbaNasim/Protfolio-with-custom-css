@@ -1,0 +1,66 @@
+/* project.css */
+
+.project {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns by default */
+  gap: 20px;
+}
+
+.project-item {
+  padding: 20px;
+  background-color: silver;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h1 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.project-item p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.project-item a {
+  color: #1e40af;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .project-list {
+    grid-template-columns: 1fr; /* Stack items on small screens */
+  }
+
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .project-item {
+    padding: 15px;
+  }
+}

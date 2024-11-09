@@ -1,0 +1,101 @@
+.contact{
+    background-color:blue;
+    width:100%;
+    height: 200px;
+    position:absolute;
+    padding:10px 0px;  
+}
+.main1{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(228, 238, 238);
+    width: 60%;
+    max-width: 700px;
+    padding:30px;
+    margin:50px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(179, 168, 179);
+}
+.heading4{
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: underline ;
+    text-align: center;
+    margin-top:30px;
+    color:blue;
+}
+ .text{
+   font-size: 20px;
+   font-weight: 500;
+   color:black;
+   line-height: 50px;
+ }
+ .custom-input {
+    font-size: 1.125rem; 
+    width: 100%; 
+    max-width: 300px; 
+    padding-left: 0.5rem; 
+    color: black; 
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:2px;
+    margin:5px 0px;
+  }
+  .main2{
+    margin:50px;
+    text-align: start;
+  }
+  .button{
+    background-color: blue;
+    width: 150px;
+    height:auto;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: azure;
+    padding:10px;
+    margin:30px;
+    justify-items: center;
+  }
+  .button:hover{
+    box-shadow: 5px 5px 10px rgb(39, 9, 207);
+  }
+  @media (max-width: 1024px) {
+    .main1 {
+        width: 80%; 
+        padding: 20px;
+    }
+    .heading4 {
+        font-size: 2rem;
+    }
+    .text, .custom-input {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main1 {
+        width: 90%;
+        padding: 15px;
+    }
+    .heading4 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main1 {
+        width: 95%;
+        padding: 10px;
+    }
+    .heading4 {
+        font-size: 1.5rem;
+    }
+    .button {
+        width: 100%; 
+        padding: 8px;
+    }
+    .custom-input {
+        width: 100%; 
+    }
+}

@@ -12,7 +12,7 @@ function Hero() {
        />
     </div>
     <div className="content">
-        <h2 className="msg ">Hi, I am</h2> 
+        <h2 className="msg ">Hi&lsquo;I am</h2> 
         <h1 className="heading1">Alishba Naseem</h1>
          <p className="para1">Front-end Developer</p>
     <div>

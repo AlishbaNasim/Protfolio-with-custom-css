@@ -7,11 +7,10 @@ function about() {
       <div className="aboutme">
     <Link href="/"> <h1 className='heading'>About me</h1></Link> 
       <p className='para shadow-box'>
-        Hello! I am Alishba Naseem, a Front-end developer with a strong foundation in HTML&lsquo; CSS&lsquo; JavaScript&lsquo; and TypeScript. My journey began six months ago with building CLI-based projects&lsquo; like a simple calculator &lsquo;number guessing game  published on npm&lsquo; where I explored the fundamentals of JavaScript and TypeScript alongside command-line interfaces. This experience laid the groundwork for my current projects and skill set.
-<br/>        Currently&lsquo; I am focused on advancing my expertise in Next.js and Tailwind CSS to create scalable&lsquo; responsive web applications. My projects now range from command-line tools to full-featured web applications, reflecting my adaptability and commitment to growth in web development.
-        <br/>
-       
-        As I progress&lsquo; I am excited to continue building innovative projects and learning new tools that help me create seamless user experiences.
+      Hello! I&apos;m Alishba Naseem&#44; a Front-end developer skilled in HTML&#44;CSS &#44; JavaScript&#44; and TypeScript. I started my journey six months ago with CLI-based projects like a calculator and a number-guessing game&#44; exploring JavaScript and TypeScript fundamentals.
+<br/>
+Currently, I&apos;m enhancing my expertise in Next.js and Tailwind CSS to build scalable&#44; responsive web applications. My projects range from command-line tools to full-featured web apps&#44; showcasing my adaptability and commitment to growth in web development. I&apos;m passionate about creating seamless user experiences and continuously learning new tools.
+<br/>
         <button className='calltoaction '> <Link href="/project">View my work</Link></button></p>
     </div></div>
   )

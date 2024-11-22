@@ -7,7 +7,7 @@
 }
 .main1{
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     background-color: rgb(228, 238, 238);
     width: 60%;
     max-width: 700px;
@@ -33,7 +33,6 @@
  .custom-input {
     font-size: 1.125rem; 
     width: 100%; 
-    max-width: 300px; 
     padding-left: 0.5rem; 
     color: black; 
     border: 1px solid black;
@@ -45,17 +44,19 @@
     margin:50px;
     text-align: start;
   }
+  .msg{
+    grid-column: span 2;
+  }
   .button{
     background-color: blue;
-    width: 150px;
+    width: 200px;
     height:auto;
     font-size: 20px;
     border-radius: 20px;
     font-weight: 600;
     color: azure;
     padding:10px;
-    margin:30px;
-    justify-items: center;
+    /* margin-left: 60%; */
   }
   .button:hover{
     box-shadow: 5px 5px 10px rgb(39, 9, 207);
@@ -82,7 +83,16 @@
         font-size: 1.75rem;
     }
 }
-
+@media (min-width: 640px) {
+    .main2 {
+     display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap:16px;
+    }
+    .button{
+      margin-left:60%;
+    }
+  }
 @media (max-width: 480px) {
     .main1 {
         width: 95%;
@@ -94,8 +104,9 @@
     .button {
         width: 100%; 
         padding: 8px;
+
     }
     .custom-input {
         width: 100%; 
-    }
+    } 
 }

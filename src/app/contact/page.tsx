@@ -23,14 +23,14 @@ function contact() {
           <div className='text'>
             <h3>PHONE NUMBER</h3>
             <input type='tel' className="custom-input" placeholder='Please enter you phone number' />
-          </div>
-          <div className='text'>
+          </div> 
+          <div className='text msg'>
             <h3>MESSSAGE</h3>
-            <textarea  rows={4} className="custom-input" placeholder='Please enter message' />
+            <textarea  rows={4}  className='custom-input msg' placeholder='Please enter message' />
           </div>
           <button type='button' className='button '>Submit</button>
         </div>
-      </div>
+        </div>     
       <Footer />
     </div>
   )

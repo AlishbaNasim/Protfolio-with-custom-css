@@ -3,6 +3,7 @@ import Image from 'next/image'
 import heroImage from "../public/pp.jpg"
 import "../styles/hero.css"
 import Link from 'next/link'
+
 function Hero() {
   return (
     <div className="mainhero">
@@ -12,12 +13,14 @@ function Hero() {
        />
     </div>
     <div className="content">
-        <h2 className="msg ">Hi&lsquo;I am</h2> 
+        <h2 className="msg ">Hi&#44;I am</h2> 
         <h1 className="heading1">Alishba Naseem</h1>
          <p className="para1">Front-end Developer</p>
     <div>
-     <button className='calltoaction1 '> <Link href="/project">View my work</Link></button>
+     {/* <button className='calltoaction1 '> <Link href="/project">View my work</Link></button> */}
       <button className='calltoaction1'><Link href="/contact">Get in Touch</Link></button>
+     <button className='calltoaction1 '> <a href="/alishba'sCv.pdf" download>Download CV</a></button>
+
     </div>
      </div>
     </div>
